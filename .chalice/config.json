@@ -1,0 +1,18 @@
+{
+    "version": "2.0",
+    "app_name": "explaining-markets-participant",
+    "stages": {
+        "dev": {
+            "api_gateway_stage": "api",
+            "lambda_timeout": 30,
+            "lambda_memory_size": 512,
+            "environment_variables": {
+                "COMPETITION_API_URL": "https://api-beta.explainingmarkets.ai/v1",
+                "COMPETITION_SUBMISSION_ID": "REPLACE_ME",
+                "COMPETITION_API_KEY": "REPLACE_ME",
+                "COMPETITION_WEBHOOK_SECRET": "REPLACE_ME",
+                "OPENAI_API_KEY": "REPLACE_ME"
+            }
+        }
+    }
+}
